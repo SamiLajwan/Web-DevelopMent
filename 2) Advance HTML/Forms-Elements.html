@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on Forms</title>
+</head>
+
+<body>
+    <h1>Forms</h1>
+    <form action="/prpcess.php">
+        <!-- Radioboxes -->
+        <p>Choose your Gender</p>
+        <input type="radio" id="Male" name="gender" value="male">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" id="Female" name="gender" value="Female">
+        <label for="Female">Female</label>
+
+        <!-- CheckBoxes -->
+        <p>Select your hobbies</p>
+        <input type="checkbox" name="Hobby" id="reading" value="reading">
+        <label for="reading">Reading</label>
+
+        <input type="checkbox" name="Hobby" id="Sports" value="Sports">
+        <label for="Sports">Sports</label>
+
+        <input type="checkbox" name="Hobby" id="Playing" value="Sports">
+        <label for="Playing">Playing</label> <br><br>
+
+        <!-- Select -->
+        <label for="City">Choose City</label>
+        <select name="City" id="City">
+            <option value="delhi">Delhi</option>
+            <option value="mumbai">mumbai</option>
+            <option value="Goa">Goa</option>
+        </select>
+        <br>
+        <br>
+        <!-- TextArea -->
+        <label for="Description">Your Message</label>
+        <textarea name="Description" row="10" cols="10" id="Description"></textarea>
+
+
+        <br>
+        <input type="Submit" value="Submit">
+    </form>
+</body>
+
+</html>

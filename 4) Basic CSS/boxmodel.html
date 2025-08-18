@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        /* #span1{
+            height: 23px;;
+            width: 23px;
+            this does not work 
+        } */ 
+
+        #div1{
+            height: 300px;
+            width: 300px;
+            padding: 20px;
+            background-color: chocolate;
+            border: 2px solid black;
+            margin: 20px;
+        }
+        .card{
+            width: 400px;
+            padding: 20px;
+            border: 10px solid red;
+            box-sizing: content-box;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Box Model</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores illum laboriosam reiciendis quae, optio autem natus est et sequi, cumque corporis. Voluptas eligendi numquam, ipsum modi quia delectus asperiores fugit sint esse.</p>
+
+        <span id="span1">Span1</span>
+        <span id="span2">Span2</span>
+
+        <div id="div1">
+            Div 1
+        </div>
+
+        <div class="card">
+            Div 2
+        </div>
+
+        
+    </div>
+</body>
+</html>

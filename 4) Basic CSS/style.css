@@ -1,3 +1,27 @@
-h1{
-    color: green;
+.container {
+  margin: 45px;
+  width: 514px;
+  height: 155vh;
+  border: 2px solid red;
+  position: relative; /* This is a positioned element */
+}
+
+.box1 {
+  width: 194px;
+  height: 114px;
+  border: 2px solid green;
+  background-color: aqua;
+  position: absolute;
+  top: 34px;
+  z-index: 10;
+  
+}
+.ad {
+  border: 2px solid green;
+  background-color: beige;
+  padding: 34px;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+ 
 }

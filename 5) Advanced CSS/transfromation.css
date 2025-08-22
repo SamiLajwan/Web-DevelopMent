@@ -1,0 +1,19 @@
+.container{
+    background-color: palevioletred;
+    height: 70vh;
+    width: 450px;
+    border: 2px solid black;
+}
+
+.box{
+    width: 100px;
+    height: 30px;
+    border: 2px solid black;
+    background-color: beige;
+    margin: 5px;
+    /* transform: translate(150px);
+     */
+     transform:translate(200PX, 100PX) scale(.75); 
+     transform-origin:top left ;
+     transform: skew(10deg 20deg);
+}

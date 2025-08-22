@@ -1,0 +1,24 @@
+.container {
+  height: 40vh;
+  width: 100vw;
+  background-color: beige;
+}
+
+.box {
+  height: 45px;
+  width: 122px;
+  background-color: aquamarine;
+  margin: 4px;
+}
+
+@media (orientation: landscape) {
+  .container {
+    background-color: red;
+  }
+}
+
+@media(min-width: 1000px) and (max-width: 1200px){
+    .container{
+        background-color: black;
+    }
+}

@@ -1,0 +1,46 @@
+.container {
+  width: 80vw;
+  height: 90vh;
+  /* padding: 6px; */
+  border: 2px solid red;
+  display: flex;
+
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* flex-wrap: wrap; */
+  gap: 20px;
+
+}
+
+.box {
+  height: 56px;
+  width: 100px;
+  /* margin: 5px; */
+  border: 2px solid green;
+  /*flex-grow --> rentire width of the container will be used */ 
+  /* flex-grow: 0;   */
+  flex-basis: 12vw;
+}
+
+
+#new1{
+    flex-shrink: 2;
+}
+
+/* #new2{
+    flex-shrink: 4;
+}
+
+#new3{
+    flex-shrink: 3;
+}
+
+#new4{
+    flex-shrink: 2;
+}
+
+#new5{
+    flex-shrink: 1;
+} */
+
+

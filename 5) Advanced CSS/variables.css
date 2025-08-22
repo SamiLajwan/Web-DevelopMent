@@ -1,0 +1,20 @@
+:root{
+    --primary-color: #2c9efc;
+    --text-color: rgb(163, 8, 8);
+}
+
+.container{
+    --primary-color: rgb(54, 12, 110);
+    --size: 56px;
+    background-color:var(--primary-color);
+    color: var(--text-color, purple);
+}
+
+.Box{
+    background-color: beige;
+    margin: 45px;
+}
+
+footer{ 
+    border: 2px solid var(--primary-color);
+}
